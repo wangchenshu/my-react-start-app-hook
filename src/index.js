@@ -6,6 +6,7 @@ import MyTitle from './MyTitle';
 import Clock from './Clock';
 import Counter from './Counter';
 import DataLoader from './DataLoader';
+import Toggle from './Toggle';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -16,6 +17,7 @@ ReactDOM.render(
     <MyTitle />
     <Clock />
     <Counter />
+    <Toggle />
     <DataLoader />
   </div>,
   document.getElementById('root')
