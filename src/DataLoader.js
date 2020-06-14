@@ -14,6 +14,7 @@ export default function DataLoader() {
 
     return (
         <div>
+            <h2>產品資料: </h2>
             <ul>
                 {data.map(el => (
                 <li key={el.id}>{el.name}-</li>

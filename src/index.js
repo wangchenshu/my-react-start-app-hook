@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
+import MyTitle from './MyTitle';
+import Clock from './Clock';
 import Counter from './Counter';
 import DataLoader from './DataLoader';
 import * as serviceWorker from './serviceWorker';
@@ -11,9 +13,11 @@ ReactDOM.render(
   //  <App />
   //</React.StrictMode>,
   <div>
-    <Counter />,
+    <MyTitle />
+    <Clock />
+    <Counter />
     <DataLoader />
-    </div>,
+  </div>,
   document.getElementById('root')
 );
 

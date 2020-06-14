@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.my-title {
+  color: #33A5FF;
+}
+
+.my-clock {
+  color: #FF8A33;
+}
