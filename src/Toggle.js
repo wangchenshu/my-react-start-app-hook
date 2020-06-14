@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Toggle() {
-    const [isToggle, setIsToggle] = useState([true]);
+    const [isToggle, setIsToggle] = useState(true);
 
     function handleClick() {
         setIsToggle(!isToggle);

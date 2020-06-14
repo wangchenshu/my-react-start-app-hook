@@ -49,3 +49,9 @@ export const GUEST_HEADER = {
   },
 };
 
+export const FILE_SERVER_INFO_STR = 'FILE_SERVER_INFO';
+
+export function setLocalStorage(key, value) {
+  localStorage.setItem(key, value);
+}
+

@@ -5,7 +5,7 @@ const SUBMIT_STR = '送出';
 const CLEAR_STR = '清除';
 
 export default function MyForm() {
-    const [value, setValue] = useState(['']);
+    const [value, setValue] = useState('');
 
     function handleChange(event) {
         setValue(event.target.value);

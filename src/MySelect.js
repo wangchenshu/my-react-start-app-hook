@@ -5,14 +5,14 @@ const NOTHING_SELECT = '未選擇';
 
 export default function MySelect() {
 
-    const [value, setValue] = useState(['']);
-    const [showValue, setShowValue] = useState([NOTHING_SELECT]);
+    const [value, setValue] = useState('');
+    const [showValue, setShowValue] = useState(NOTHING_SELECT);
 
     function handleChange(event) {
         var index = event.nativeEvent.target.selectedIndex;
         var targetText = YOU_SELECT + event.target[index].text;
         
-        if (event.target.value == '') {
+        if (event.target.value === '') {
             targetText = NOTHING_SELECT;
         }
 
