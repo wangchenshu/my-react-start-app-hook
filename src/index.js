@@ -7,6 +7,8 @@ import Clock from './Clock';
 import Counter from './Counter';
 import DataLoader from './DataLoader';
 import Toggle from './Toggle';
+import MyForm from './MyForm';
+import MySelect from './MySelect';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -18,6 +20,8 @@ ReactDOM.render(
     <Clock />
     <Counter />
     <Toggle />
+    <MyForm />
+    <MySelect />
     <DataLoader />
   </div>,
   document.getElementById('root')
